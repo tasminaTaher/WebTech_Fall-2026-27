@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information Form</title>
+</head>
+
+<body>
+
+    <h1>Student Information Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Student Personal Information</legend>
+
+            <table>
+
+                <tr>
+                    <td>
+                        <label for="StudentName">Student Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="StudentName" id="StudentName"
+                               placeholder="Enter Your Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="StudentID">Student ID :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="StudentID" id="StudentID"
+                               placeholder="Enter Your Student ID" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="CGPA">CGPA :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="CGPA" id="CGPA"
+       placeholder="Enter Your CGPA">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="DOB">DOB :</label>
+                    </td>
+                    <td>
+                        <input type="date" name="DOB" id="DOB">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Gender :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="Male" value="Male">
+                        <label for="Male">Male</label>
+
+                        <input type="radio" name="gender" id="Female" value="Female">
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <br>
+
+       <h3>Education Information</h3>
+
+<fieldset>
+    <table border="1">
+
+        <tr>
+            <th>Program</th>
+            <th>Major</th>
+            <th>Year</th>
+            <th>Institution</th>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" name="program1">
+            </td>
+            <td>
+                <input type="text" name="major1">
+            </td>
+            <td>
+                <input type="text" name="year1">
+            </td>
+            <td>
+                <input type="text" name="institution1">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" name="program2">
+            </td>
+            <td>
+                <input type="text" name="major2">
+            </td>
+            <td>
+                <input type="text" name="year2">
+            </td>
+            <td>
+                <input type="text" name="institution2">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" name="program3">
+            </td>
+            <td>
+                <input type="text" name="major3">
+            </td>
+            <td>
+                <input type="text" name="year3">
+            </td>
+            <td>
+                <input type="text" name="institution3">
+            </td>
+        </tr>
+
+
+
+            </table>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
